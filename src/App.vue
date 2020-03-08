@@ -5,17 +5,14 @@
 </template>
 
 <script>
-import recipeList from "./components/recipeList.vue"
-	
-	export default{
-		name: "app",
-		components: {
-			recipeList
-		}
-	}
+import recipeList from "./components/recipeList.vue";
 
-
-
+export default {
+  name: "app",
+  components: {
+    recipeList
+  }
+};
 </script>
 
 <style>
